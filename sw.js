@@ -11,6 +11,7 @@ var urlsToCache=[
     '/main.js',
     '/manifest.json',
     './sw.js',
+    './styles.css',
 
 
 
