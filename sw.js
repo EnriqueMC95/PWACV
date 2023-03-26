@@ -19,7 +19,7 @@ var urlsToCache=[
 
 
 
-]
+];
 
 self.addEventListener('install', e=>{
 
