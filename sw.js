@@ -12,6 +12,8 @@ var urlsToCache=[
     '/manifest.json',
     './sw.js',
     './styles.css',
+    './WhatsApp Image 2020-11-25 at 8.20.27 PM.jpeg',
+
 
 
 
