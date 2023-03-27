@@ -9,7 +9,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: #F8F9F9 ;
+    background-color: #CCD1D1 ;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -18,10 +18,10 @@ section#name{
     width: 100%;
     float: right;
     font-size: large;
-    border: 5px solid red;
     display: flex;
     flex-direction:column;
     background-color: #283747 ;
+    border-bottom: 3px solid #CCD1D1;
     
     
 
@@ -30,13 +30,14 @@ section#name{
 div#info{
     
 
-    border: 5px solid red;
+    
     float: left;
     height: 100%;
     width: 382px;
     display: flex;
     flex-direction:column;
     background-color: #283747;
+    border-right: 3px solid #CCD1D1;
     
     
 
@@ -45,47 +46,49 @@ div#info{
 .foto{
     width: 279px;
     border-radius: 50%;
-    border: 5px solid red;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    
    
     
 
 }
 div#contact{
     padding: 0%;
-    border: 5px solid red;
+    border-top: 3px solid #CCD1D1;
+
 
 }
 div#infocont{
 
     background-color:#CCD1D1 ;
     text-align: start;
+    border-right: 3px solid #283747;
 
 }
 div#Skills{
+    border-right: 3px solid #283747;
 
     
-    border: 5px solid red;
-
-
+  
 
 }
 div#idioma{
 
-    border: 5px solid red;
+   
 
 }
 div#infoidio{
 
     background-color:#CCD1D1 ;
+    border-right: 3px solid #283747;
 }
 div#main{
     height: 100%;
     width: 100%;
-    border: 5px solid red;
+    border: 5px solid #CCD1D1 ;
     display: flex;
     flex-direction: column;
 
@@ -95,15 +98,16 @@ div#resPro{
 
 
     background-color: #283747;
-    border: 5px solid red;
+    border: 5px solid  #283747 ;
     display: flex;
 
 }
 div#ExpPro{
 
-    border: 5px solid red;
+    
     display: flex;
     background-color: #283747;
+    
 
 
 
@@ -116,10 +120,10 @@ a{
     text-decoration-color: black;
 }
 div#inforespro{
-    border: 5px solid red;
     display: flex;
     background-color:#CCD1D1 ;
     height: 100%;
+
     
 }
 h3{
@@ -129,13 +133,47 @@ div#School{
 
     width: 100%;
     display: flex;
-    border: 5px solid red;
+    border-top: 3px solid #283747;
 
 }
 div#infoSchool{
     display: flex;
     background-color:#CCD1D1 ;
+    
 
 
 
+}
+h3#FS{
+
+    font-size: larger;
+}
+p#HRR{
+
+    font-size: medium;
+
+}
+p#text1{
+
+    text-align: left;
+    
+    
+}
+div#inforespro1{
+    display: flex;
+    background-color:#CCD1D1 ;
+    height: 100%;
+    border-top: 3px solid #283747;
+    
+
+    
+}
+div#inforespro2{
+    display: flex;
+    background-color:#CCD1D1 ;
+    height: 100%;
+    border-bottom: 3px solid #283747;
+    
+
+    
 }
