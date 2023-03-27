@@ -32,9 +32,7 @@ div#info{
 
     border: 5px solid red;
     float: left;
-    display: flex;
     height: 100%;
-    width: 100%;
     width: 382px;
     display: flex;
     flex-direction:column;
@@ -58,7 +56,6 @@ div#info{
 }
 div#contact{
     padding: 0%;
-
     border: 5px solid red;
 
 }
