@@ -44,7 +44,9 @@ div#info{
 
 }
 .foto{
-    width: 279px;
+    display: flex;
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
     border: 5px solid red;
     padding-left: 20px;
@@ -56,18 +58,22 @@ div#info{
 
 }
 div#contact{
+    display: flex;
+    
     padding: 0%;
 
     border: 5px solid red;
 
 }
 div#infocont{
+    display: flex;
 
     background-color:#CCD1D1 ;
     text-align: start;
 
 }
 div#Skills{
+    display: flex;
 
     
     border: 5px solid red;
@@ -76,11 +82,13 @@ div#Skills{
 
 }
 div#idioma{
+    display: flex;
 
     border: 5px solid red;
 
 }
 div#infoidio{
+    display: flex;
 
     background-color:#CCD1D1 ;
 }
